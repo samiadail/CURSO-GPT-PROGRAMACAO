@@ -1,0 +1,37 @@
+print("-" * 40)
+print("|\tQUESTIONÁRIO DO DETETIVE\t|")
+print("-" * 40)
+
+print("Detetive: Ricardo")
+print("")
+print("O detetive Ricardo está procurando um ladrão de carros e foi informado que o ladrão estava roubando um Fiat Vermelho no centro da cidade.")
+print("")
+print("Quando o detetive chegou no centro da cidade ele não viu ninguém e o carro Fiat Vermelho já tinha desaparecido.")
+print("")
+print("Então o detetive foi nas cameras de segurança do mercado local mais perto e ele encontrou uma pessoa que possivelmente viu todo o ato do ladrão.")
+print("")
+print("Essa Pessoa era Você!!!")
+
+print("-" * 40)
+print("| O detetive fez as seguintes perguntas |")
+print("-" * 40)
+
+perguntaOnde = input("Onde ele estava no centro? ")
+perguntaOque = input("O que ele estava fazendo? ")
+perguntaQuem = input("Quem estava com ele? ")
+
+print("")
+print("O Detetive anotou tudo na caderneta dele e fez as seguintes conclusões!!!")
+
+print("-" * 40)
+print("|RELATÓRIO DO DETETIVE|")
+print("-" * 40)
+print(f"O elemento estava {perguntaOnde}.")
+print(f"Ele {perguntaOque}.")
+print(f"E o olheiro falou que estava com {perguntaQuem}.")
+print("-" * 40)
+
+print("")
+print("O detetive analisou os fatos e não chegou a lugar nenhum ")
+print("Então ele abandonou o caso!!!")
+print("")
