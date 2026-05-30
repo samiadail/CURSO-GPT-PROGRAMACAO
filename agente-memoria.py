@@ -14,7 +14,7 @@ bancoDados = SqliteDb(db_file="temp/registros.db")
 # CRIO O MODELO DE IA
 agente = Agent(
     model = OpenAIChat(id = "gpt-4o-mini"),
-    description="Você e um nerd que sabe muito das coisa sobre muitas coisas",
+    description="Você e um cara que sabe muito das coisa sobre muitas coisas",
     add_history_to_context=True,
     db=bancoDados,
     session_id="66d49a99-caa6-47af-96c0-dd04a0c839dc",
