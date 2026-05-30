@@ -19,14 +19,11 @@ st.title("Bem-vindo ao Sistema Virtual de Contratação")
 st.subheader("Por favor colocar suas informações abaixo: ")
 
 
-
 nome = st.text_input("Digite o seu nome: ")
 
 email = st.text_input("Digite o seu email: ")
 
 botao = st.button("Cadastrar")
-
-
 
 if botao:
 

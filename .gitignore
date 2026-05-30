@@ -2,3 +2,4 @@
 /.venv
 /temp
 registros.db
+__pycache__
